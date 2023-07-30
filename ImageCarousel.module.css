@@ -1,0 +1,213 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+.CarouselContainer {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: flex-start;
+}
+
+.ThumbnailContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.ThumbnailContainer {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+.ThumbnailContainer {
+  /* z-index: 999; */
+  padding: 10px;
+  position: sticky;
+  max-height: 80vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  border: 4px solid white;
+  gap: 10px;
+}
+
+.ThumbnailContainerFS {
+  max-height: 100vh !important;
+  padding: 10px;
+  position: sticky;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  border: 4px solid white;
+  gap: 10px;
+}
+
+.ThumbnailContainerFS::-webkit-scrollbar {
+  display: none;
+}
+
+.ThumbnailWrapper {
+  width: 100px;
+  height: 100px;
+}
+
+.ThumbnailWrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.ThumbnailWrapper img:hover {
+  cursor: pointer;
+  border: 4px solid #337ab7;
+}
+
+.selectedImage {
+  border: 4px solid #337ab7;
+}
+
+.ImageContainer {
+  width: 700px;
+  height: 80vh;
+  /* height: 95%; */
+}
+
+.ImageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* transform: scale(1); */
+ }
+
+.BigImageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.BigImageContainerFS {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.ImageContainerFS {
+  width: 900px;
+  height: 100vh;
+}
+
+.ImageContainerFS img {
+  aspect-ratio: auto;
+  width: 100%;
+  height: 100%;
+  max-height: 100vh;
+  object-fit: contain;
+}
+
+.ControllsSection {
+  z-index: 999;
+  width: 75%;
+}
+
+.FullscreenButtonFS {
+  cursor: pointer;
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+  margin-bottom: 70px;
+  cursor: pointer;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 18px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.SingleExtractorButton {
+  cursor: pointer;
+  position: absolute;
+  bottom: 25.5%;
+  left: 20%;
+  margin-bottom: 70px;
+  cursor: pointer;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 18px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.FullscreenButton {
+  cursor: pointer;
+  position: absolute;
+  bottom: 18%;
+  left: 20%;
+  margin-bottom: 70px;
+  cursor: pointer;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 18px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.PlayButton {
+  cursor: pointer;
+  position: absolute;
+  bottom: 18%;
+  left: 20%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 18px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.LeftArrowButton {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 18px;
+  border-radius: 100%;
+  background-color: white;
+}
+.LeftArrowButtonFS {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 18px;
+  border-radius: 100%;
+  background-color: white;
+}
+.RightArrowButtonFS {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 18px;
+  border-radius: 100%;
+  background-color: white;
+}
+.RightArrowButton {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  right: 12%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 18px;
+  border-radius: 100%;
+  background-color: white;
+}
+

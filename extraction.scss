@@ -1,0 +1,50 @@
+// ~ is used for alias location names
+@import "~assets/scss/layouts";
+
+.extraction-container {
+  @include flex_display();
+  height: 100%;
+  padding: 0 0.5em;
+  width: 100%;
+
+  .is-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  #drawing-board-reducer-toggle-view-checked {
+    margin-right: 1em;
+  }
+
+  .left-pane {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .right-scroll {
+    overflow: auto;
+    height: 100%;
+    padding-bottom: 5em;
+  }
+
+  .no-display {
+    display: none;
+  }
+
+  .header {
+    @include flex_display();
+    justify-content: space-between;
+    margin-top: 0.3em;
+  }
+
+  .full-display {
+    padding: 0 1em;
+    width: 100%;
+  }
+
+  .central-data {
+    height: 100%;
+    overflow-y: auto;
+  }
+}

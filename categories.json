@@ -1,0 +1,321 @@
+[
+  {
+    "categoryName": "INCOME_DOCUMENT_PROOF",
+    "childCategories": [
+      {
+        "categoryName": "SALARY_SLIP",
+        "childCategories": [],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "CHEQUE",
+        "childCategories": [],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "FORM28AS",
+        "childCategories": [],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "FORM16",
+        "childCategories": [
+          {
+            "categoryName": "FORM_16_PART_A",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "FORM_16_PART_B",
+            "childCategories": [],
+            "classificationLevel": 3
+          }
+        ],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "FINANCIAL_STATEMENT",
+        "childCategories": [
+          {
+            "categoryName": "PROFIT_AND_LOSS",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "SCHEDULES",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "BALANCE_SHEET",
+            "childCategories": [],
+            "classificationLevel": 3
+          }
+        ],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "STATEMENT",
+        "childCategories": [],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "CIBIL",
+        "childCategories": [],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "SANCTION_LETTER",
+        "childCategories": [],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "APPOINTMENT_LETTER",
+        "childCategories": [],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "LOAN_ACCOUNT_STATEMENT",
+        "childCategories": [],
+        "classificationLevel": 2
+      }
+    ],
+    "classificationLevel": 1
+  },
+  {
+    "categoryName": "INCOME_TAX_DOCUMENT_FOR_SELF_EMPLOYED",
+    "childCategories": [
+      {
+        "categoryName": "ITR",
+        "childCategories": [],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "IRV",
+        "childCategories": [],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "GST",
+        "childCategories": [
+          {
+            "categoryName": "GST_1",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "GST_3",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "GST_4",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "GST_IN",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "GST_REGISTRATION",
+            "childCategories": [],
+            "classificationLevel": 3
+          }
+        ],
+        "classificationLevel": 2
+      }
+    ],
+    "classificationLevel": 1
+  },
+  {
+    "categoryName": "KYC",
+    "childCategories": [
+      {
+        "categoryName": "AADHAR",
+        "childCategories": [
+          {
+            "categoryName": "AADHAR_FRONT",
+            "childCategories": [
+              {
+                "categoryName": "AADHAR_FRONT_SCANNED",
+                "childCategories": [],
+                "classificationLevel": 4
+              },
+              {
+                "categoryName": "AADHAR_FRONT_DIGITAL",
+                "childCategories": [],
+                "classificationLevel": 4
+              }
+            ],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "AADHAR_BACK",
+            "childCategories": [
+              {
+                "categoryName": "AADHAR_BACK_SCANNED",
+                "childCategories": [],
+                "classificationLevel": 4
+              },
+              {
+                "categoryName": "AADHAR_BACK_DIGITAL",
+                "childCategories": [],
+                "classificationLevel": 4
+              }
+            ],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "AADHAR_FULL",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "DIGITAL",
+            "childCategories": [],
+            "classificationLevel": 4
+          },
+          {
+            "categoryName": "SCANNED",
+            "childCategories": [],
+            "classificationLevel": 4
+          },
+          {
+            "categoryName": "FORMAT1",
+            "childCategories": [],
+            "classificationLevel": 5
+          },
+          {
+            "categoryName": "FORMAT2",
+            "childCategories": [],
+            "classificationLevel": 5
+          }
+        ],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "PAN",
+        "childCategories": [
+          {
+            "categoryName": "PAN_FRONT",
+            "childCategories": [
+              {
+                "categoryName": "PAN_FRONT_SCANNED",
+                "childCategories": [],
+                "classificationLevel": 4
+              },
+              {
+                "categoryName": "PAN_FRONT_DIGITAL",
+                "childCategories": [],
+                "classificationLevel": 4
+              }
+            ],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "PAN_BACK",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "PAN_FULL",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "DIGITAL",
+            "childCategories": [],
+            "classificationLevel": 4
+          },
+          {
+            "categoryName": "SCANNED",
+            "childCategories": [],
+            "classificationLevel": 4
+          },
+          {
+            "categoryName": "FORMAT1",
+            "childCategories": [],
+            "classificationLevel": 5
+          },
+          {
+            "categoryName": "FORMAT2",
+            "childCategories": [],
+            "classificationLevel": 5
+          }
+        ],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "PASSPORT",
+        "childCategories": [
+          {
+            "categoryName": "PASSPORT_FRONT",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "PASSPORT_BACK",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "PASSPORT_FULL",
+            "childCategories": [],
+            "classificationLevel": 3
+          }
+        ],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "VOTER_ID",
+        "childCategories": [
+          {
+            "categoryName": "VOTER_ID_FRONT",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "VOTER_ID_BACK",
+            "childCategories": [],
+            "classificationLevel": 3
+          },
+          {
+            "categoryName": "VOTER_ID_FULL",
+            "childCategories": [],
+            "classificationLevel": 3
+          }
+        ],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "DRIVING_LICENSE",
+        "childCategories": [],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "NATIONAL_ID",
+        "childCategories": [],
+        "classificationLevel": 2
+      }
+    ],
+    "classificationLevel": 1
+  },
+  {
+    "categoryName": "RELATIONSHIP_PROOF",
+    "childCategories": [
+      {
+        "categoryName": "MARRIAGE_CERTIFICATE",
+        "childCategories": [],
+        "classificationLevel": 2
+      },
+      {
+        "categoryName": "BIRTH_CERTIFICATE",
+        "childCategories": [],
+        "classificationLevel": 2
+      }
+    ],
+    "classificationLevel": 1
+  }
+]
