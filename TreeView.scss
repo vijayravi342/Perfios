@@ -1,0 +1,107 @@
+.Classification-Root-Container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+  .is-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .PageIndexContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+
+    .PageIndexWrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      // padding: 10px;
+    }
+
+    .PageIndexInfoList {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+
+  .PageIndexButtonWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px 10px;
+  }
+
+  .GeneratePropNode {
+    padding: 0px 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+
+  .rstcustom__row {
+    padding-left: 0 !important;
+  }
+
+  .rstcustom__expandButton,
+  .rstcustom__collapseButton {
+    padding-left: 30px !important;
+  }
+
+  .MuiTab-wrapper {
+    padding: 0 !important;
+  }
+
+  .MuiTab-root {
+    color: black !important;
+    min-width: 100px !important;
+    // padding: 10px 20px !important;
+    height: 0 !important;
+  }
+
+  .Mui-selected {
+    color: white !important;
+    background-color: #3f51b5 !important;
+    border-bottom: none !important;
+    border-radius: 5px;
+  }
+
+  .PrivateTabIndicator-colorSecondary-10 {
+    display: none !important;
+  }
+
+  // canvas {
+  //   aspect-ratio: auto;
+  //   width: 700px !important;
+  //   height: 100%;
+  //   max-height: 75.7vh;
+  //   object-fit: contain;
+  // }
+
+  // canvas {
+  //   aspect-ratio: auto;
+  //    width: 20% !important;
+  //   height: 90% !important; 
+  //   max-height: 75.7vh;
+  //   object-fit: contain;
+  // }
+
+  .TreeTextEllipse {
+    white-space: nowrap;
+    width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
